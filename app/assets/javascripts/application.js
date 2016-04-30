@@ -13,4 +13,15 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require_tree
+//= requerir angularjs
+// ... 
+// = requerir angulares-carriles-plantillas 
+// 
+// plantillas en app / activos / javascript / plantillas 
+./templates // = require_tree 
+// o 
+// plantillas en app / activos / plantillas (pero véase el paso 5) 
+// = require_tree ../templates
+//= require angular-route/angular-route
+//= require angular-rails-templates

@@ -14,8 +14,16 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'pg'
-# Use jquery as the JavaScript library
 
+gem 'angular-rails-templates'
+# authenticaton
+gem "omniauth"
+gem 'devise_token_auth'
+gem 'ng_generator_for_rails', git: 'git://github.com/abhisheksarka/ng_generator_for_rails.git'
+
+gem 'devise'
+# Use jquery as the JavaScript library
+gem 'rails-api'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
